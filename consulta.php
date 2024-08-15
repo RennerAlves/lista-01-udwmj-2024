@@ -1,4 +1,8 @@
-        function login($email, $senha){
+<?php
+
+class consulta{
+        
+function login($email, $senha){
 
                 $conn = new conecta();
                 $con = $conn->conectar();
@@ -8,3 +12,5 @@
                 return $result;
 
         }
+        }
+?> 
