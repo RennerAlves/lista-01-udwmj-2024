@@ -3,8 +3,8 @@
 class Conecta {
 
     private $host = "localhost";
-    private $user = "projeto";  // Substitua por seu usuário do MySQL
-    private $password = "projeto";  // Substitua pela senha do seu MySQL
+    private $user = "projeto"; 
+    private $password = "projeto"; 
     private $database = "projeto";
 
     public function conectar() {
